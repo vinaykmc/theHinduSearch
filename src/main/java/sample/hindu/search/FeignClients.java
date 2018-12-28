@@ -1,4 +1,4 @@
-package sample.web.ui;
+package sample.hindu.search;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;

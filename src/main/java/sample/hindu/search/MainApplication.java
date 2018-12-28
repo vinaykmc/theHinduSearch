@@ -1,4 +1,4 @@
-package sample.web.ui;
+package sample.hindu.search;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

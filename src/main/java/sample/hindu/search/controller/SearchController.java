@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import sample.hindu.search.FeignClients;
 
 @Controller
-public class MessageController {
+public class SearchController {
 	
 	@Autowired
 	FeignClients feignClients;

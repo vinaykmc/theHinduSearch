@@ -28,7 +28,7 @@ it will download all the dependencies required for project to run.
 
 http://localhost:8080/author/{AuthorName}
 
-## Searching the article (inprogress)
+## Searching the article
 
 http://localhost:8080/search/{search content}
 

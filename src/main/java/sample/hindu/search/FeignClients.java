@@ -13,6 +13,6 @@ public interface FeignClients {
 	@RequestMapping(method = RequestMethod.GET, value = "/profile/author/{authorName}")
 	ResponseEntity<String> getAuthorData(@PathVariable("authorName") String authorName);
 	
-	@RequestMapping(method = RequestMethod.GET, value = "/search/?q={searchTitle}&order=DESC&sort=publishdate")
+	@RequestMapping(method = RequestMethod.GET, value = "/search/?q={title}&order=DESC&sort=publishdate")
 	ResponseEntity<String> getTitleData(@PathVariable("title") String title);
 }

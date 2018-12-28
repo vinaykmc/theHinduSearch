@@ -26,9 +26,8 @@ public class SearchController {
 	@RequestMapping("/search/{title}")
 	public String getTitleDate(Map<String, Object> model, @PathVariable String title) {
 		ResponseEntity<String> response = feignClients.getTitleData(title);
-		model.put("message", response.getBody().toString());
+		model.put("message", response.getBody());
 		return "welcome";
 	}
-
 
 }
